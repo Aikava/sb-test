@@ -1,0 +1,14 @@
+{
+  "name": "sb-test",
+  "version": "1.0.0",
+  "description": "Test task from sberbank",
+  "main": "main.ts",
+  "scripts": {
+    "build": "npm-run-all build:*",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "dev": "(cd server && npm run dev) && (cd client && npm run start)"
+  },
+  "author": "Rykov Dmitry",
+  "license": "ISC"
+}

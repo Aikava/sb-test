@@ -1,0 +1,11 @@
+{
+  "name": "sb-test-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "build": ""
+  },
+  "author": "Rykov Dmitry",
+  "license": "ISC"
+}
