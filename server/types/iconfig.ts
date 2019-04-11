@@ -3,4 +3,8 @@ export default interface IConfig {
     port: number;
     hostname: string;
   }
+  staticDir: string;
+  db: {
+    connection: string;
+  }
 }

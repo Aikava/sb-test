@@ -1,11 +1,12 @@
-import os from 'os';
 import IConfig from 'types/iconfig';
+import path from 'path';
 
-const config: IConfig = {
+const config: Partial<IConfig> = {
   server: {
     port: 1122,
-    hostname: os.hostname()
-  }
+    hostname: 'localhost'
+  },
+  staticDir: path.resolve(__dirname, '..', '..', 'client', 'dist')
 };
 
 export default config;

@@ -7,8 +7,30 @@
     "build": "npm-run-all build:*",
     "build:client": "cd client && npm run build",
     "build:server": "cd server && npm run build",
+    "start:server:dev": "cd server && ts-node src/main.ts",
     "dev": "(cd server && npm run dev) && (cd client && npm run start)"
   },
   "author": "Rykov Dmitry",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^3.4.3",
+    "express": "^4.16.4",
+    "react": "^16.8.6"
+  },
+  "devDependencies": {
+    "ts-node": "^8.0.3",
+    "@types/express": "github:types/express",
+    "@types/config": "0.0.34",
+    "@types/node": "^11.13.2",
+    "config": "^3.1.0",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.3",
+    "babel-core": "^6.26.3",
+    "npm-run-all": "^4.1.5",
+    "react-dom": "^16.8.6",
+    "ts-loader": "^5.3.3",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  }
 }

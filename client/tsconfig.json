@@ -1,13 +1,18 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "dist",
+    "outDir": "bundle",
     "module": "commonjs",
-    "target": "es2018",
+    "target": "es5",
     "moduleResolution": "node",
+    "lib": ["dom", "es2018"],
     "esModuleInterop": true,
     "noImplicitAny": true,
     "removeComments": true,
-    "sourceMap": true
-  }
+    "sourceMap": true,
+    "jsx": "react"
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }

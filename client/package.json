@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "build": ""
+    "build": "webpack",
+    "start:dev": "webpack"
   },
   "author": "Rykov Dmitry",
   "license": "ISC"

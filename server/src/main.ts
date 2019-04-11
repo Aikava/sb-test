@@ -5,5 +5,5 @@ import IConfig from 'types/iconfig';
 const { port, hostname }: IConfig['server'] = get('server');
 
 server.listen(port, hostname,  () => {
-  console.log(`Server start listen ${hostname}:${port}`);
+  console.log(`Server start listen http://${hostname}:${port}`);
 });

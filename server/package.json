@@ -4,17 +4,9 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "build": ""
+    "build": "",
+    "start": "cd .. && npm run start:server:dev"
   },
   "author": "Rykov Dmitry",
-  "license": "ISC",
-  "dependencies": {
-    "@types/express": "github:types/express",
-    "express": "^4.16.4"
-  },
-  "devDependencies": {
-    "@types/config": "0.0.34",
-    "@types/node": "^11.13.2",
-    "config": "^3.1.0"
-  }
+  "license": "ISC"
 }

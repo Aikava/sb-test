@@ -1,5 +1,5 @@
 import IConfig from 'types/iconfig';
 
-const config: IConfig = {};
+const config: Partial<IConfig> = {};
 
 export default config;
