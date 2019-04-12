@@ -1,6 +1,6 @@
 import server from 'src/server';
 import { get } from 'config';
-import IConfig from 'types/iconfig';
+import IConfig from 'src/types/iconfig';
 
 const { port, hostname }: IConfig['server'] = get('server');
 

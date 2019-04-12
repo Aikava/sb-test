@@ -4,10 +4,13 @@
   "description": "Test task from sberbank",
   "main": "main.ts",
   "scripts": {
+    "start": "npm-run-all start:*",
+    "start:server": "node src/main.js",
+    "start:server:dev": "cd server && ts-node src/main.ts",
     "build": "npm-run-all build:*",
     "build:client": "cd client && npm run build",
-    "build:server": "cd server && npm run build",
-    "start:server:dev": "cd server && ts-node src/main.ts",
+    "build:server": "tsc --project server",
+    "deploy:build": "docker build -t localhost:5000/sv-test:latest ./",
     "dev": "(cd server && npm run dev) && (cd client && npm run start)"
   },
   "author": "Rykov Dmitry",

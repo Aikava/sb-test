@@ -1,13 +1,14 @@
 {
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "dist",
+    "outDir": "dist/src",
     "module": "commonjs",
     "target": "es2018",
     "moduleResolution": "node",
     "esModuleInterop": true,
     "noImplicitAny": true,
     "removeComments": true,
-    "sourceMap": true
+    "sourceMap": true,
+    "allowJs": true
   }
 }

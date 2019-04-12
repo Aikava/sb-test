@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "build": "",
-    "start": "cd .. && npm run start:server:dev"
+    "build": "cd .. && npm run build:server",
+    "start": "cd .. && NODE_CONFIG_DIR=./server/src/config npm run start:server:dev"
   },
   "author": "Rykov Dmitry",
   "license": "ISC"
