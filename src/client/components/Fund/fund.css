@@ -1,0 +1,28 @@
+.fund__header {
+    width: 100%;
+}
+
+.fund__header-image {
+    width: 100%;
+    height: 200px;
+    padding-bottom: 20px;
+    border-radius: 5px 5px 0;
+}
+
+.fund__title {
+    margin: 0 30px 10px;
+    font-size: 40px;
+}
+
+.fund__article {
+    margin: 0 30px;
+    font-size: 20px;
+}
+
+.fund__goto-donation {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    padding: 30px;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"local.js","sourceRoot":"","sources":["../../config/local.ts"],"names":[],"mappings":";;;;AACA,gDAAwB;AAExB,MAAM,MAAM,GAAqB;IAC/B,SAAS,EAAE,OAAO,CAAC,GAAG,CAAC,UAAU,IAAI,cAAI,CAAC,OAAO,CAAC,SAAS,EAAE,mBAAmB,CAAC;IACjF,EAAE,EAAE;QACF,gBAAgB,EAAE,OAAO,CAAC,GAAG,CAAC,aAAa,IAAI,iDAAiD;KACjG;CACF,CAAC;AAEF,iBAAS,MAAM,CAAC"}

@@ -1,0 +1,6 @@
+.tile-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 30px;
+}
